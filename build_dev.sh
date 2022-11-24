@@ -1,0 +1,1 @@
+RUSTFLAGS='-C link-arg=-s' cargo build --target wasm32-unknown-unknown && mv target/wasm32-unknown-unknown/debug/near_cashback_contract.wasm out/dev.wasm
